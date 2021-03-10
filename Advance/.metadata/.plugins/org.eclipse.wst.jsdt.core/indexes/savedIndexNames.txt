@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+C:\Users\CTEA\Desktop\Advance\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1051964928.index
+1236588281.index
+3911071976.index
+1675663234.index
+2019315375.index
+1675663234.index
+2541558375.index
+3554872811.index
+3539715313.index
+931282813.index
+30268030.index

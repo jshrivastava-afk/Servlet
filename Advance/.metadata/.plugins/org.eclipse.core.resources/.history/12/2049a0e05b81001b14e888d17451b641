@@ -1,0 +1,18 @@
+package com.ltts.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.ltts.configuration.MyConnection;
+import com.ltts.modal.Team;
+
+public class AuctionDAO {
+
+	public List<Team> getAllTeams(){
+		List<Team> li=new ArrayList<Team >();
+		
+		return li;
+		}
+}

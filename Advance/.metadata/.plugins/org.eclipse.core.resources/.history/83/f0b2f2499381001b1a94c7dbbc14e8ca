@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="Playerform.html">Player Entry</a><br>
+<a href="Teamform.html">Team Entry</a><br>
+<a href="PlayerView.jsp">Player Entry</a><br>
+<a href="Auction.html">Auction Entry</a>
+</body>
+</html>

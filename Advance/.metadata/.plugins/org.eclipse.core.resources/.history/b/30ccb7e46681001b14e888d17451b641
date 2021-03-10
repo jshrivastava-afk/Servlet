@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+	h2{
+		text-align: center;
+		background-color: lightblue;
+	    border: 2px solid black
+	}
+form{
+	border: 2px solid black;
+	background-color: lightblue
+}
+button {
+  border-radius: 12px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.required:after{
+	content: "*";
+	color: red;
+}
+body{
+	background-image: url('pexels-photo-1594943-533x261.jpeg');
+	background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+}
+.nav-tabs li a {
+    color: #777;
+  }  
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }
+input[type=number] {
+  -moz-appearance: textfield;
+}  
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">CrickTracker</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="boot1.html">HOME</a></li>
+        <li><a href="#band">ABOUT</a></li>
+        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Result Summary</a></li>
+            <li><a href="#">Points Table</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br><br><br><br><br>
+<center>
+<div class="container" style="width: 50%">
+	<h2>Player Entry Form</h2>
+</div>
+</center>
+<center>
+<div style="width: 50%">
+	<center>
+		<form class="col-xs-12" action="index.html" method="post" >
+			<table class="col-xs-12" class="table table-hover">
+				<br>
+				<tr>
+			<td><label for="Player_id" class="required">Enter Player Id:</label><br><br></td>
+			<td><input type="number" id="Player_id" name="Player_id" placeholder="Enter Player Id"><br><br></td>
+			</tr>
+			<tr>
+			<td><label for="Player_name" class="required"> Enter Player Name: </label><br><br></td>
+            <td><input type="name" id="Player_name" name="Player_name" placeholder="Enter Player Name"><br><br></td>
+		</tr>
+			<tr>
+			<td><label for="Player_DOB" class="required"> Enter Player DOB: </label><br><br></td>
+			<td><input type="date" id="Player_DOB" name="Player_DOB" placeholder=""><br><br></td>
+		</tr>
+		<tr>
+		<td><label class="required">Enter the Player Skill: </label><br><br></td>
+		<td><select>
+			    <option selected disabled hidden style='display: none' value=''></option>
+				<option>Batsman</option>
+				<option>Bowler</option>
+				<option>All Rounder</option>
+			</select><br><br></td>
+        </tr>
+        <tr>
+			<td><label for="runs" class="required">Enter Player Runs: </label><br><br></td>
+	        <td><input type="number" id="runs" name="runs" placeholder="Enter Player Runs"><br><br></td>
+		</tr>
+		<tr>
+			<td><label for="wickets" class="required">Enter Player Wickets: </label><br><br></td>
+	        <td><input type="number" id="wickets" name="wickets" placeholder="Enter Player Wickets"><br><br></td>
+		</tr>
+<tr>
+			<td><label for="matches" class="required">Enter Number of Matches played: </label><br><br></td>
+	        <td><input type="number" id="matches" name="matches" placeholder="Matches Played"><br><br></td>
+		</tr>
+    <tr>
+      <td><label for="Player_id" class="required">Enter Team Id:</label><br><br></td>
+      <td><input type="number" id="Player_id" name="Player_id" placeholder="Enter Team Id"><br><br></td>
+      </tr>
+</table>
+
+    <button type="button"><a href="boot1.html">Submit</a></button> 
+  
+		</form>
+	</center>
+</div>
+</center>
+</body>
+</html>
