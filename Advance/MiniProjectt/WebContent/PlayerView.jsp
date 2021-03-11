@@ -23,8 +23,6 @@ List<Player> li=pd.getAllPlayers();
 <th>Player_wickets</th>
 <th>Player_numberofmatches</th>
 <th>teamid</th>
-
-<th></th>
 </tr>
 <%
 for(Player p:li){

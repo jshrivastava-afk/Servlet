@@ -31,7 +31,7 @@ import java.sql.Date;
 				
 				public List<Player> getAllPlayers() throws Exception {
 					
-					List<Player> li=new ArrayList<Player>();
+				
 					Connection c= MyConnection.getConnection();
 					PreparedStatement ps= c.prepareStatement("Select * from Player");
 					ResultSet rs=ps.executeQuery();
