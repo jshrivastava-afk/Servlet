@@ -1,9 +1,0 @@
-package com.ltts.modal;
-
-public class Auction {
-	
-	private int auc_id;
-	private int Player_id;
-	private int team_id;
-
-}

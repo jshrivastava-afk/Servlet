@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\CTEA\Desktop\Advance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1675663234.index
-\MiniProjectt\src
