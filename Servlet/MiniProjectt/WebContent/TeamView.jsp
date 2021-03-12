@@ -30,7 +30,7 @@ for(Team t:li){
 <td><%=t.getOwnername() %></td>
 <td><%=t.getCoachname() %></td>
 <td><%=t.getCaptain_id() %></td>
-</tr>
+<td><a href="teamedit.jsp?t_id=<%=t.getTeam_id()%>"><button class="button">UPDATE</button></a></td></tr>
 <%} %>
 </table>
 </body>
